@@ -11,4 +11,4 @@ addons:
   apt:
     packages:
       - gcc
-script: python setup.py test
+script: nosetests
